@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #ffb61a;
+  padding: 23px;
+}
+
+.Container-items {
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.37);
+}
+
+button {
+  border: none;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-image: radial-gradient(circle at top right, white, #1b222b);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+.Container-items {
+  display: grid;
+  padding: 10px;
+}
+
+input {
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 3px;
+  width: 330px;
+  height: 30px;
+}
+
+button {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 200px;
+  height: 30px;
+}/*# sourceMappingURL=style.css.map */

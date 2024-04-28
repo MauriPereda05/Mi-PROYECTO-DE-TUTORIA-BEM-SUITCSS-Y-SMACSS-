@@ -1,0 +1,24 @@
+$First-color: #ffb61a;
+
+h1{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: $First-color;
+    padding: 23px;
+}
+
+.Container-items{
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

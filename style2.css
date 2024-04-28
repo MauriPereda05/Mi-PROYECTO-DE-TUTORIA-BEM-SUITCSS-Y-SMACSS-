@@ -1,0 +1,32 @@
+.Nav {
+  background-color: rgba(92, 92, 92, 0.5882352941);
+  border-radius: 20px;
+}
+
+.Nav-page {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+.Nav-page--active {
+  background-color: #787878;
+  box-shadow: 2px 4px 3px 2px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.Nav {
+  border: 1px solid;
+  margin: 20px;
+  padding: 20px;
+}
+.Nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}/*# sourceMappingURL=style2.css.map */

@@ -1,0 +1,21 @@
+$background-help: #787878;
+
+$background-nav: #5c5c5c96;
+
+.Nav{
+    background-color: $background-nav;
+    border-radius: 20px;
+}
+
+.Nav-page{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+
+    &--active{
+        background-color: $background-help;
+        box-shadow: 2px 4px 3px 2px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+}

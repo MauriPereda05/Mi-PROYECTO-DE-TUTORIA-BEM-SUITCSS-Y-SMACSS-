@@ -1,0 +1,14 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+
+    &-items{
+        display: grid;
+        padding: 10px;
+    }
+}
